@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Charles Thomaz · Engenheiro de Software</title>
-    
+
     <!-- Fontes e ícones -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    
+
     <style>
         * {
             margin: 0;
@@ -34,7 +37,7 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background: 
+            background:
                 radial-gradient(circle at 20% 50%, rgba(59, 130, 246, 0.08) 0%, transparent 50%),
                 radial-gradient(circle at 80% 80%, rgba(6, 182, 212, 0.08) 0%, transparent 50%),
                 linear-gradient(180deg, #03050b 0%, #0a0f1f 100%);
@@ -49,7 +52,7 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background-image: 
+            background-image:
                 linear-gradient(rgba(59, 130, 246, 0.03) 1px, transparent 1px),
                 linear-gradient(90deg, rgba(59, 130, 246, 0.03) 1px, transparent 1px);
             background-size: 50px 50px;
@@ -83,6 +86,7 @@
                 transform: translateY(-100%);
                 opacity: 0;
             }
+
             to {
                 transform: translateY(0);
                 opacity: 1;
@@ -172,6 +176,7 @@
                 opacity: 0;
                 transform: translateY(40px);
             }
+
             to {
                 opacity: 1;
                 transform: translateY(0);
@@ -207,8 +212,15 @@
         }
 
         @keyframes gradientShift {
-            0%, 100% { background-position: 0% 50%; }
-            50% { background-position: 100% 50%; }
+
+            0%,
+            100% {
+                background-position: 0% 50%;
+            }
+
+            50% {
+                background-position: 100% 50%;
+            }
         }
 
         .hero-description {
@@ -476,8 +488,13 @@
         }
 
         @keyframes rotate {
-            from { transform: rotate(0deg); }
-            to { transform: rotate(360deg); }
+            from {
+                transform: rotate(0deg);
+            }
+
+            to {
+                transform: rotate(360deg);
+            }
         }
 
         .portfolio-content {
@@ -621,25 +638,25 @@
             h1 {
                 font-size: 2.8rem;
             }
-            
+
             .nav-links {
                 display: none;
             }
-            
+
             .stats-grid {
                 grid-template-columns: 1fr;
                 gap: 20px;
             }
-            
+
             .cta-title {
                 font-size: 1.8rem;
             }
-            
+
             .footer-content {
                 flex-direction: column;
                 text-align: center;
             }
-            
+
             .portfolio-grid {
                 grid-template-columns: 1fr;
             }
@@ -683,17 +700,17 @@
                     <i class="fas fa-code" style="margin-right: 8px;"></i>
                     Especialista em Vanilla JavaScript
                 </span>
-                
+
                 <h1>
                     Transformando ideias em<br>
                     <span class="gradient-text">soluções digitais</span>
                 </h1>
-                
+
                 <p class="hero-description">
-                    Desenvolvo sistemas web sob medida, automações inteligentes e painéis administrativos 
+                    Desenvolvo sistemas web sob medida, automações inteligentes e painéis administrativos
                     com código puro, performance máxima e sem dependências desnecessárias.
                 </p>
-                
+
                 <div class="hero-buttons">
                     <a href="https://wa.me/5531981216718" class="btn btn-primary">
                         <i class="fab fa-whatsapp"></i>
@@ -738,7 +755,8 @@
                         <i class="fas fa-globe"></i>
                     </div>
                     <h3>Sistemas Web</h3>
-                    <p>Plataformas completas com autenticação, dashboards em tempo real, relatórios e muito mais. Tudo em JavaScript puro.</p>
+                    <p>Plataformas completas com autenticação, dashboards em tempo real, relatórios e muito mais. Tudo
+                        em JavaScript puro.</p>
                 </div>
 
                 <div class="service-card fade-in">
@@ -746,7 +764,8 @@
                         <i class="fas fa-robot"></i>
                     </div>
                     <h3>Automações</h3>
-                    <p>Automatize processos repetitivos, integrações com APIs, disparos automáticos e fluxos de trabalho inteligentes.</p>
+                    <p>Automatize processos repetitivos, integrações com APIs, disparos automáticos e fluxos de trabalho
+                        inteligentes.</p>
                 </div>
 
                 <div class="service-card fade-in">
@@ -754,7 +773,8 @@
                         <i class="fas fa-chart-line"></i>
                     </div>
                     <h3>Painéis Admin</h3>
-                    <p>Controle total do seu negócio com painéis personalizados, métricas em tempo real e gestão completa.</p>
+                    <p>Controle total do seu negócio com painéis personalizados, métricas em tempo real e gestão
+                        completa.</p>
                 </div>
 
                 <div class="service-card fade-in">
@@ -795,7 +815,8 @@
                             <span class="vanilla-badge">Vanilla JS</span>
                         </div>
                         <p class="portfolio-description">
-                            Plataforma para traders com análise de mercado, gráficos em tempo real e indicadores técnicos.
+                            Plataforma para traders com análise de mercado, gráficos em tempo real e indicadores
+                            técnicos.
                         </p>
                         <div class="portfolio-tech">
                             <span class="tech-tag">HTML5</span>
@@ -803,7 +824,8 @@
                             <span class="tech-tag">JavaScript</span>
                             <span class="tech-tag">Chart.js</span>
                         </div>
-                        <a href="https://charlesthomaz.github.io/setelagoastrader/" target="_blank" class="portfolio-link">
+                        <a href="https://charlesthomaz.github.io/setelagoastrader/" target="_blank"
+                            class="portfolio-link">
                             Acessar projeto <i class="fas fa-arrow-right"></i>
                         </a>
                     </div>
@@ -940,7 +962,8 @@
                             <span class="tech-tag">CSS3</span>
                             <span class="tech-tag">JavaScript</span>
                         </div>
-                        <a href="https://charlesthomaz.github.io/aulas/indexOficial.html" target="_blank" class="portfolio-link">
+                        <a href="https://charlesthomaz.github.io/aulas/indexOficial.html" target="_blank"
+                            class="portfolio-link">
                             Acessar projeto <i class="fas fa-arrow-right"></i>
                         </a>
                     </div>
@@ -988,7 +1011,8 @@
                             <span class="vanilla-badge">Vanilla JS</span>
                         </div>
                         <p class="portfolio-description">
-                            Rede social para profissionais de saúde com agendamento e prontuários.
+                            Desenvolvemos sistemas personalizados que automatizam processos, aumentam a produtividade e
+                            geram resultados reais para sua empresa.
                         </p>
                         <div class="portfolio-tech">
                             <span class="tech-tag">HTML5</span>
@@ -1066,7 +1090,7 @@
         <div class="cta-section fade-in">
             <h2 class="cta-title">Pronto para transformar sua ideia em realidade?</h2>
             <p class="cta-description">
-                Vamos construir juntos a solução perfeita para seu negócio, 
+                Vamos construir juntos a solução perfeita para seu negócio,
                 com código limpo, performance máxima e sem frameworks desnecessários.
                 Orçamento sem compromisso e suporte dedicado em todas as etapas.
             </p>
@@ -1102,7 +1126,7 @@
     <script>
         // Animações de scroll
         const fadeElements = document.querySelectorAll('.fade-in');
-        
+
         const observer = new IntersectionObserver((entries) => {
             entries.forEach(entry => {
                 if (entry.isIntersecting) {
@@ -1119,7 +1143,7 @@
                 e.preventDefault();
                 const targetId = link.getAttribute('href');
                 const targetElement = document.querySelector(targetId);
-                
+
                 if (targetElement) {
                     targetElement.scrollIntoView({
                         behavior: 'smooth',
@@ -1140,4 +1164,5 @@
         });
     </script>
 </body>
+
 </html>
